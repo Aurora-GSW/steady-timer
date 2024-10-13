@@ -1,5 +1,5 @@
 {
-  "name": "Steady-Timer",
+  "name": "steady-timer",
   "version": "1.0.0",
   "description": "A relatively stable timer",
   "main": "lib/index.cjs.js",
