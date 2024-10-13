@@ -1,0 +1,40 @@
+{
+  "name": "Steady-Timer",
+  "version": "1.0.0",
+  "description": "A relatively stable timer",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "jsnext:main": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aurora-GSW/steady-timer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "timer",
+    "setTimeout",
+    "setInterval",
+    "throttle",
+    "worker",
+    "Blob",
+    "browser"
+  ],
+  "author": "gongshiwei",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.18.1",
+    "tslib": "^2.6.3"
+  }
+}
